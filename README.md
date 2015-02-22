@@ -3,7 +3,7 @@ An implementation of a Bernoulli Restricted Boltzmann Machine
 
 rbm.py first loads   the   image   data   from   the   MNIST   data   set   file   to
 memory.   Then   it   uses   the   Contrastive   Divergence   algorithm to train the RBM on the MNIST dataset. 
-The provided RBM class
+The RBM class
 takes the number of hidden units, learning rate, number of inner Gibbs sampling
 iterations, batch size, and number of epochs as input parameters. 
 It   is   also   possible   to   provide   two   function   pointers   h_phv_generator   and
@@ -12,7 +12,7 @@ implementation to sample p(h|v) and p(v|h) distributions, respectively. As a res
 the   algorithm   can   be   extended   to   use   more   general   distributions   such   as   the
 exponential family distribution instead of the default Bernoulli distribution.
 
-In addition, a unit test class is provided that performs two test functions on the
+unit_test.py provides a class performs two test functions on the
 RBM. The first test loads ten random images from the MNIST data set and trains an
 RBM on each image. Then it calculates the error rate performance by calculating
 the   average   absolute   error   between   the   image   from   the   dataset   and   the   image
