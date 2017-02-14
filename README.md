@@ -12,11 +12,11 @@ implementation to sample p(h|v) and p(v|h) distributions, respectively. As a res
 the   algorithm   can   be   extended   to   use   more   general   distributions   such   as   the
 exponential family distribution instead of the default Bernoulli distribution.
 
-"mnist_pretrain.py" trains the
+`mnist_pretrain.py` trains the
 RBM on a number of symbols from the dataset and plots different images obtained
 by   sampling   of   the   learned   distribution.
 
-"unit_test.py" provides a class performs two test functions on the
+`unit_test.py` provides a class performs two test functions on the
 RBM. The first test loads ten random images from the MNIST data set and trains an
 RBM on each image. Then it calculates the error rate performance by calculating
 the   average   absolute   error   between   the   image   from   the   dataset   and   the   image
