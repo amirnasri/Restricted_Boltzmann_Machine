@@ -1,7 +1,7 @@
-# Restricted_Boltzmann_Machine
-An implementation of a Bernoulli Restricted Boltzmann Machine
+# Restricted Boltzmann Machine
+An implementation of a Bernoulli Restricted Boltzmann Machine in Python
 
-"rbm.py" first loads   the   image   data   from   the   MNIST   data   set   file   to
+`rbm.py` first loads   the   image   data   from   the   MNIST   data   set   file   to
 memory.   Then   it   uses   the   Contrastive   Divergence   algorithm to train the RBM on the MNIST dataset. 
 The RBM class
 takes the number of hidden units, learning rate, number of inner Gibbs sampling
